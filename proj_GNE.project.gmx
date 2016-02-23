@@ -18,7 +18,6 @@
     <script>scripts\gne_disconnect.gml</script>
     <script>scripts\gne_get_socket_id.gml</script>
     <script>scripts\gne_set_socket_id.gml</script>
-    <script>scripts\packet_init.gml</script>
     <scripts name="buffer">
       <script>scripts\write_string.gml</script>
       <script>scripts\read_string.gml</script>
@@ -42,6 +41,8 @@
       <script>scripts\gne_check_message.gml</script>
       <script>scripts\gne_get_message.gml</script>
     </scripts>
+    <script>scripts\packet_init.gml</script>
+    <script>scripts\packet_sniff.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\object0</object>
@@ -53,7 +54,7 @@
     <room>rooms\room1</room>
   </rooms>
   <constants number="1">
-    <constant name="connection_established">1</constant>
+    <constant name="connection_established">0</constant>
   </constants>
   <help>
     <rtf>help.rtf</rtf>

@@ -33,6 +33,7 @@ ds_queue_enqueue(queue, "d");
 while(!ds_queue_empty(queue)){
     show_message(ds_queue_dequeue(queue))
 }
+show_message(ds_queue_size(queue))
 </string>
           </argument>
         </arguments>
